@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #message_box{
+            width: 98vw;
+            height:60px;
+            background-color: #7da9d5;
+            border : 0.7px solid black;
+            margin: 8px;
+            margin-block-end: 8px;
+            font-size: 15px;
+             font-family: "Times New Roman", Times, serif;
+             overflow:auto
+        }
+
+        #dateTime
+        {
+            float: right;
+            font-size: 10px;
+        }
+       
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <%msg.forEach(message=>{%>
+          
+            <div id="message_box">
+                <%=message.message%></textarea>
+                <span id="dateTime"><%= message.sent%></span>
+            </div>
+                    <%})%>
+                </div>         
+            
+            
+
+            
+</body>
+
+</html>
