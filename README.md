@@ -1,9 +1,11 @@
 # Xmessage
 
 This is Anonymous message sending website.
-Requirement :
-  1-mongoose
-  2- express js
+
+Following dependencies to be installed : 
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.13"
   
  Send ANONYMOUS Message : This is where a user types an email to whom he want to send message.
  
