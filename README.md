@@ -13,4 +13,6 @@ Check feedbackkk  : This is where a user type his email address and check what m
 
 This is the first website I have created using HTML, CSS, Javascript, Bootstrap, Express and Mongoose.
 For simplicity, there is no requirement of any password.
+
+To run : node server.js
  
